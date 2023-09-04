@@ -1,14 +1,19 @@
+:root {
+    --bg-color:  hsl(212, 45%, 89%);
+    --icon-blue: hsl(216, 95%, 58%);
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(212, 45%, 89%);
-}
-p{
+    background-color: var(--bg-color);
     font-family: "Outfit", sans-serif;
+    font-size: 15px;
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
