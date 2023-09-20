@@ -38,6 +38,7 @@ img {
 
 .card {
     background-color: var(--card-bg-color);
+    min-width: 220px;
     color: var(--text-color);
     display: grid;
     grid-template-rows: 300px 200px 100px;
